@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(168, 157, 157);
+}
+
+.comparison_img {
+    /* height: 200px; */
+    width: auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.comparison-panel {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.first-panel {
+    max-width: 1200px;
+    float: right;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(0, 255, 255, 0.986);
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: white;
+    }
+}
+
+.navbar-brand {
+    background-color: rgba(94, 216, 253, 0.986);
+    font-size: 28px;
+    margin-left: 50px;
+    font-family: impact;
+}
+
+.second-panel {
+    max-width: 555px;
+    float: left;
+}
+
+.table {
+    margin: auto;
+    background-color: white;
