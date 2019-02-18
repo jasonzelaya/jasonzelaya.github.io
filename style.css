@@ -219,3 +219,23 @@ th, td{
         display: block;
     }
 }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 995px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 995px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+.img{
+    max-width: 100%;
+}
